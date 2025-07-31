@@ -1,0 +1,966 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael Cavallo - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Michael Cavallo" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Michael Cavallo">Michael Cavallo</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contact Info</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mikecavallo@gmail.com" class="contact-link">mikecavallo@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+19102540056" class="contact-link">+1 (910) 254-0056</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">December 11. 1983</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Leland, North Carolina USA</address>
+            </div>
+
+          </li>
+          <li class="contact-item">
+            <div class="contact-info">
+
+              <div>
+                <a href="assets/RESUME.pdf" download>
+                  <button class="form-btn">Download Resume</button>
+                </a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a self-taught programmer with a passion for technology that started at the age of 12. Over the past 20 years, I have operated a web design company, which, in the last five years, transitioned into a successful eCommerce business specializing in selling used books across platforms like Amazon and eBay, reaching over $750,000 in sales in 2023.
+          </p>
+
+          <p>
+            As the book market shifted and industry dynamics changed, I saw an opportunity to pivot once again—this time toward my true passion: Artificial Intelligence. Over the last two years, I’ve been dedicated to building AI applications and deepening my expertise in AI-driven software development and machine learning. I’m constantly learning, experimenting, and pushing the boundaries of what’s possible with AI & ML.
+          </p>
+          <p>
+            Whether it's developing intelligent systems, exploring machine learning frameworks, or integrating AI into real-world applications, I thrive on innovation and problem-solving. This portfolio showcases my journey, projects, and the exciting work I’m creating in the web development space.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Custom Software</h4>
+
+                <p class="service-item-text">
+                  Custom built software to meet your business' needs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/creativitygold.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">A.I. Consulting</h4>
+
+                <p class="service-item-text">
+                  Learn how to integrate A.I. into your business and increase productivity!
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/online-shopgold.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">E-Commerce</h4>
+
+                <p class="service-item-text">
+                  From Amazon to eBay to your own Shopify or Woocommerce store, I handle it all.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+          
+          <ul class="testimonials-list has-scrollbar" data-testimonials-list>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr. Manfredi, New Fairfield Chiropractic</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I am thrilled with the website Mike created for my practice. Not only does it look professional, but it's also user-friendly and has helped attract new patients. The whole process was smooth, and Mike really took the time to understand my needs. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Tori Ganino, Calling All Dogs</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mike was fantastic to work with- professional, responsive, and really took the time to understand my dog training business and brand. He created a clean, functional website that makes it easy for my clients to find information and get in touch. I highly recommend Mike to any professional looking to elevate their online presence.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Brett Jackson" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Brett Jackson</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I couldn't be more pleased with the website Mike created for us. The process was seamless, and they delivered a stunning, functional design that perfectly captures our brand. Highly recommend!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+          <div class="testimonial-navigation">
+            <button id="scroll-left" class="scroll-btn">←</button>
+            <button id="scroll-right" class="scroll-btn">→</button>
+          </div>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <div class="separator"></div>
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Naugatuck Valley Community College</h4>
+
+              <span>20019 — 2020</span>
+
+              <p class="timeline-text">
+                Started working towards my Associate's Degree in Computer Information Systems but had to leave when semester ended to run my new business.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Brookfield High School</h4>
+
+              <span>1998 - 2002</span>
+
+              <p class="timeline-text">
+                Studied the basics and graduated with a 3.2 GPA.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Founder & CEO, Digital Design</h4>
+
+              <span>2020 - Present</span>
+
+              <p class="timeline-text">
+                Founded and scaled a versatile business that evolved through multiple successful phases. Initially established as a web design company serving a major client with 80+ websites. Pivoted to e-commerce after identifying lucrative market opportunities in online reselling. Rapidly scaled operations from a home-based business to a 2,500 sq ft warehouse facility with two floors. Built and managed a team of full-time employees while developing efficient inventory processing systems handling 10,000+ lbs of products weekly. Achieved over $750,000 in gross Amazon sales in 2023 while simultaneously managing ten distinct online storefronts across multiple platforms. Successfully navigated industry consolidation and supply chain challenges by strategically pivoting to web development and AI consulting services. Currently leveraging technical expertise to deliver custom web solutions and innovative AI implementations for clients.
+              </p>
+              <div class="separator"></div>
+              <h3 style="color: #ffffff">Skills Aquired</h3>
+              <span style="color: #ffffff"><b>Business Development & Management:</b></span>
+              
+              <ul class="skill-list">
+                <li>Entrepreneurship & business founding</li>
+                <li>Strategic pivoting & business model adaptation</li>
+                <li>Scaling operations (home-based to warehouse)</li>
+                <li>Team building & management</li>
+                <li>Financial planning & revenue growth</li>
+                <li>Multi-channel sales management</li>
+                <li>Supply chain management</li>
+                <li>Inventory control & logistics</li>
+                <li>Warehouse operations</li>
+                <li>Business restructuring & overhead reduction</li>
+              </ul>
+              <br>
+              <span style="color: #ffffff"><b>Technical Skills:</b></span>
+              <ul class="skill-list">
+                <li>Web design & development</li>
+                <li>E-commerce platform management</li>
+                <li>Online marketplace optimization (Amazon + others)</li>
+                <li>AI technologies & applications</li>
+                <li>Digital marketing</li>
+                <li>Project management</li>
+                <li>Data analysis for business decisions</li>
+              </ul>
+              <br>
+              <span style="color: #ffffff"><b>Industry Knowledge:</b></span>
+              <ul class="skill-list">
+                <li>Online retail/e-commerce</li>
+                <li>Used book industry</li>
+                <li>Wholesale product sourcing</li>
+                <li>AI trends & implementations</li>
+                <li>Web development best practices</li>
+              </ul>
+              
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer & Digital Marketing Specialist, Independent Realty Group</h4>
+
+              <span>2015 — Present</span>
+
+              <p class="timeline-text">
+                Served as the sole in-house web developer managing a comprehensive portfolio of 80+ websites for a thriving real estate brokerage. Oversaw all aspects of digital presence including website design, development, maintenance, and server administration. Specialized in IDX (Internet Data Exchange) integration and development, enabling dynamic property listing displays across the brokerage's web platforms. Developed and executed effective SEO strategies to achieve top category rankings across the entire website portfolio. Created and managed all graphic design assets for print and digital advertising campaigns. Maintained consistent brand voice across six distinct social media platforms while producing engaging content for the company's Candlewood Lake Life blog. Effectively balanced technical development responsibilities with creative marketing initiatives to support business growth and enhance brand visibility in the competitive real estate market.
+              </p>
+              <div class="separator"></div>
+              <h3 style="color: #ffffff">Skills Aquired</h3>
+              <span style="color: #ffffff"><b>Web Development & Technical:</b></span>
+              <ul class="skill-list">
+                <li>Portfolio website management</li>
+                <li>Front-end & back-end web development</li>
+                <li>IDX (Internet Data Exchange) development & integration</li>
+                <li>System administration</li>
+                <li>Server management & maintenance</li>
+                <li>SEO implementation & strategy</li>
+                <li>Technical troubleshooting</li>
+                <li>Content management systems</li>
+              </ul>
+              <br>
+              <span style="color: #ffffff"><b>Design & Creative:</b></span>
+              <ul class="skill-list">
+                <li>Graphic design for print & digital</li>
+                <li>Advertisement creation</li>
+                <li>Brand consistency</li>
+                <li>Visual identity management</li>
+                <li>Media production</li>
+                <li>Layout design</li>
+              </ul>
+              <br>
+              <span style="color: #ffffff"><b>Digital Marketing:</b></span>
+              <ul class="skill-list">
+                <li>Multi-platform social media management</li>
+                <li>Content creation & copywriting</li>
+                <li>Blog writing & management</li>
+                <li>Real estate specific marketing</li>
+                <li>Online reputation management</li>
+                <li>Local SEO strategies</li>
+              </ul>
+              <br>
+              <span style="color: #ffffff"><b>Industry Knowledge:</b></span>
+              <ul class="skill-list">
+                <li>Real estate digital marketing</li>
+                <li>Property website standards</li>
+                <li>IDX implementation & customization</li>
+                <li>MLS data integration</li>
+                <li>Local area expertise (Candlewood Lake)</li>
+                <li>Digital presence for real estate brokerages</li>
+              </ul>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming</h5>
+                <data value="90">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">E-Commerce</h5>
+                <data value="50">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AI & ML</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.brettjacksonmakeup.com" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brett Jackson Makeup</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://lakemap.replit.app/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/map.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Candlewood Lake Interactive Map</h3>
+
+                <p class="project-category">Web Application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/shock.png" alt="shock electric" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Shock Electric</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/comp-electric.png" alt="competetive electric" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Competetive Electric</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.candlewoodlakelife.com" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/lakelife.png" alt="Candlewwood Lake Life" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Candlewwood Lake Life Blog</h3>
+
+                <p class="project-category">Web design/Content Creation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.americanlandscapeandmasonry.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/american.png" alt="American Landscape & Masonry" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">American Landscape & Masonry</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://christinacavallo.realtor/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/chris.png" alt="Christina Cavallo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Christina Cavallo, Realtor</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://independentrealtygroup.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/irg.png" alt="Independent Realty Group" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Independent Realty Group</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/elite.png" alt="Elite Real Estate" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Elite Real Estate</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://candlewoodlakerealestate.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/candlewood.png" alt="Candlewood Lake Real Estate" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Candlewood Lake Real Estate</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://communitiesoncandlewoodlake.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/candlewood.png" alt="Candlewood Lake Real Estate" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Candlewood Lake Real Estate</h3>
+
+                <p class="project-category">Web Development/Portfolio<br>The portfolio contains the 70 community websites listed on this page</p>
+
+              </a>
+            </li>
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+     
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
