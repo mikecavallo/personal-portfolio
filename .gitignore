@@ -1,0 +1,25 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Replit
+.replit
+.replit.backup
+replit.nix
+.config/
+.cache/
+.upm/
+
+# Node (no build step today, but keep tooling output out)
+node_modules/
+npm-debug.log*
+
+# Local env and test artifacts
+.env
+.env.*
+test-results/
+playwright-report/

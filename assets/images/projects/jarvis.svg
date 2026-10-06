@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" role="img" aria-label="Jarvis: Voice assistant + GPU speech server">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b2b2c"/><stop offset="1" stop-color="#141415"/></linearGradient></defs>
+<rect width="800" height="400" fill="url(#g)"/>
+<rect x="0.5" y="0.5" width="799" height="399" fill="none" stroke="#383838"/>
+<rect x="60" y="150" width="48" height="4" rx="2" fill="#ffdb70"/>
+<text x="60" y="210" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="48" font-weight="600" fill="#fafafa">Jarvis</text>
+<text x="60" y="250" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="22" fill="#d6d6d6">Voice assistant + GPU speech server</text>
+<g fill="#ffdb70"><rect x="548" y="195.0" width="12" height="30" rx="6"/><rect x="570" y="175.0" width="12" height="70" rx="6"/><rect x="592" y="150.0" width="12" height="120" rx="6"/><rect x="614" y="165.0" width="12" height="90" rx="6"/><rect x="636" y="135.0" width="12" height="150" rx="6"/><rect x="658" y="160.0" width="12" height="100" rx="6"/><rect x="680" y="180.0" width="12" height="60" rx="6"/><rect x="702" y="155.0" width="12" height="110" rx="6"/><rect x="724" y="190.0" width="12" height="40" rx="6"/></g>
+</svg>
